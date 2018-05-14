@@ -11964,11 +11964,6 @@ var Main = function (_Component) {
           "div",
           null,
           _react2.default.createElement(
-            "h1",
-            null,
-            "ECB"
-          ),
-          _react2.default.createElement(
             "ul",
             { className: "header" },
             _react2.default.createElement(
@@ -13201,7 +13196,7 @@ exports = module.exports = __webpack_require__(62)(false);
 
 
 // module
-exports.push([module.i, "body {\n\n}\nh1, h2, p, ul, li {\n  font-family: sans-serif;\n}\nul.header li {\n  display: inline;\n  list-style-type: none;\n  margin: 0;\n}\nul.header {\n  background-color: #111;\n  padding: 0;\n}\nul.header li a {\n  color: #FFF;\n  font-weight: bold;\n  text-decoration: none;\n  padding: 20px;\n  display: inline-block;\n}\n.content {\n  background-color: #FFF;\n  padding: 20px;\n}\n.content h2 {\n  padding: 0;\n  margin: 0;\n}\n.content li {\n  margin-bottom: 10px;\n}\n\n.active {\n  background-color: #0099FF;\n}\n\nheader {\n  display: block;\n  background-color: black;\n  width: 100%;\n  height: 50px;\n  color: white;\n}\n#headerButtons {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n.navButton {\n  float: right;\n}\nfooter {\n  display: block;\n  width: 100%;\n  height: 50px;\n  background-color: black;\n  color: white;\n}\n", ""]);
+exports.push([module.i, "body {\n\n}\nh1, h2, p, ul, li {\n  font-family: sans-serif;\n}\nul.header li {\n  display: inline;\n  list-style-type: none;\n  margin: 0;\n}\nul.header {\n  background-color: inherit;\n  padding: 0;\n}\nul.header li a {\n  color: #FFF;\n  font-weight: bold;\n  text-decoration: none;\n  padding: 20px;\n  display: inline-block;\n}\n.content {\n  background-color: inherit;\n  color: #FFF;\n  padding: 20px;\n}\n.content h2 {\n  padding: 0;\n  margin: 0;\n}\n.content li {\n  margin-bottom: 10px;\n}\n\n.active {\n  background-color: grey;\n}\n\nheader {\n  display: block;\n  background-color: black;\n  width: 100%;\n  height: 50px;\n  color: white;\n}\n#headerButtons {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n.navButton {\n  float: right;\n}\nfooter {\n  display: block;\n  width: 100%;\n  height: 50px;\n  background-color: black;\n  color: white;\n}\n", ""]);
 
 // exports
 
