@@ -8,12 +8,14 @@ import  Home  from "./Home.jsx";
 import  Services  from "./Services.jsx";
 import  Contact  from "./Contact.jsx";
 import { IndexLink, Link } from 'react-router-dom';
+import "../styles/main.css";
 
 class Main extends Component {
   render() {
     return (
       <HashRouter>
         <div>
+
           <h1>ECB</h1>
           <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>

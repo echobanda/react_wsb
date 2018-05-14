@@ -6,6 +6,7 @@ class Home extends Component {
       <div>
         <h2>STRONA NA DZIEŃ DOBRY</h2>
 
+
       </div>
     );
   }
