@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 
-class Home extends Component {
+class Workshop extends Component {
   render() {
     return (
       <div>
-        <h2>3 2 1</h2>
-
+        <h2>warsztat</h2>
 
       </div>
     );
   }
 }
 
-export default Home;
+export default Workshop;

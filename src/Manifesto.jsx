@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
-class Services extends Component {
+class Manifesto extends Component {
   render() {
     return (
       <div>
-        <h2>USŁUGI</h2>
+        <h2>Manifest</h2>
 
       </div>
     );
   }
 }
 
-export default Services;
+export default Manifesto;
