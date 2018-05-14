@@ -7,7 +7,7 @@ body {
 ul.header li {
   display: inline;
   list-style-type: none;
-  margin: 0;
+  margin-right: 20px;
 }
 
 ul.header {
@@ -39,7 +39,7 @@ ul.header li a {
 }
 
 .active {
-  background-color: grey;
+  background-color: red;
 }
 
 header {
