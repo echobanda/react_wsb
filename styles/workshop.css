@@ -1,0 +1,27 @@
+.workshop__content {
+  width: 98%;
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.workshop__content--text {
+  width: 60%;
+  height: 400px;
+}
+
+.workshop__content--photo {
+  width: 40%;
+  height: 400px;
+}
+
+.workshop__content--photo img {
+  width: 100%;
+  height: 100%;
+}
