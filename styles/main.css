@@ -10,4 +10,5 @@ body {
   margin-right: auto;
   overflow: hidden;
   z-index: 0;
+  padding: 10px;
 }

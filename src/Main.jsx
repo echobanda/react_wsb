@@ -25,8 +25,15 @@ class Main extends Component {
             <li><NavLink to="/build">BUILD</NavLink></li>
             <li><NavLink to="/about">ABOUT</NavLink></li>
             <li><NavLink to="/contact">CONTACT</NavLink></li>
+            <li><a href='http://google.com'><i className="fas fa-envelope"></i></a></li>
+            <li><a href='http://tumblr.com'><i className="fab fa-tumblr-square"></i></a></li>
+            <li><a href='http://instagram.com'><i className="fab fa-instagram"></i></a></li>
+            <li><a href='http://twitter.com'><i className="fab fa-twitter-square"></i></a></li>
+            <li><a href='http://facebook.com'><i className="fab fa-facebook"></i></a></li>
+
           </ul>
-          <div className="content">
+
+          <div className="main__content">
             <Route exact path="/" component={Home}/>
             <Route path="/workshop" component={Workshop}/>
             <Route path="/manifesto" component={Manifesto}/>
