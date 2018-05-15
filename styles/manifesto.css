@@ -1,4 +1,4 @@
-.workshop__content {
+.manifesto__content {
   width: 98%;
   margin: 0 auto;
   height: 500px;
@@ -12,22 +12,22 @@
   padding: 20px;
 }
 
-.workshop__content--text {
+.manifesto__content--text {
   width: 50%;
   height: 400px;
   padding-right: 30px;
 }
 
-.workshop__content--text p {
+.manifesto__content--text p {
   text-align: justify;
 }
 
-.workshop__content--photo {
+.manifesto__content--photo {
   width: 40%;
   height: auto;
 }
 
-.workshop__content--photo img {
+.manifesto__content--photo img {
   width: 100%;
   height: 100%;
 }
