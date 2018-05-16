@@ -12,12 +12,13 @@ import  About  from "./About.jsx";
 import  Contact  from "./Contact.jsx";
 import { IndexLink, Link } from 'react-router-dom';
 import "../styles/main.css";
+import "../styles/styles.css";
 
 class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
+        <div className="main">
           <ul className="header">
             <li><NavLink exact to="/">HOME</NavLink></li>
             <li><NavLink to="/workshop">WORKSHOP</NavLink></li>
@@ -25,11 +26,11 @@ class Main extends Component {
             <li><NavLink to="/build">BUILD</NavLink></li>
             <li><NavLink to="/about">ABOUT</NavLink></li>
             <li><NavLink to="/contact">CONTACT</NavLink></li>
-            <li><a href="mailto:mechanic@workshop.com"><i className="fas fa-envelope"></i></a></li>
-            <li><a href='http://tumblr.com'><i className="fab fa-tumblr-square"></i></a></li>
-            <li><a href='http://instagram.com'><i className="fab fa-instagram"></i></a></li>
-            <li><a href='http://twitter.com'><i className="fab fa-twitter-square"></i></a></li>
-            <li><a href='http://facebook.com'><i className="fab fa-facebook"></i></a></li>
+            <li><a href="mailto:mechanic@workshop.com" className="header__main--link"><i className="fas fa-envelope"></i></a></li>
+            <li><a href='http://tumblr.com' className="header__main--link"><i className="fab fa-tumblr-square"></i></a></li>
+            <li><a href='http://instagram.com' className="header__main--link"><i className="fab fa-instagram"></i></a></li>
+            <li><a href='http://twitter.com' className="header__main--link"><i className="fab fa-twitter-square"></i></a></li>
+            <li><a href='http://facebook.com' className="header__main--link"><i className="fab fa-facebook"></i></a></li>
 
           </ul>
 
@@ -41,6 +42,10 @@ class Main extends Component {
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
           </div>
+
+          <footer>
+          <h4>design and coding &copy; 2018 <a href="https://www.echobanda.pl" className="footer__main--link">echobanda</a></h4>
+          </footer>
         </div>
       </HashRouter>
     );

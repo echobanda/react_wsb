@@ -11,4 +11,5 @@ body {
   overflow: hidden;
   z-index: 0;
   padding: 10px;
+  margin: 0 auto;
 }
