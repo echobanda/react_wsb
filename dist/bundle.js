@@ -12120,20 +12120,6 @@ var Main = function (_Component) {
             _react2.default.createElement(_reactRouterDom.Route, { path: "/build", component: _Build2.default }),
             _react2.default.createElement(_reactRouterDom.Route, { path: "/about", component: _About2.default }),
             _react2.default.createElement(_reactRouterDom.Route, { path: "/contact", component: _Contact2.default })
-          ),
-          _react2.default.createElement(
-            "footer",
-            null,
-            _react2.default.createElement(
-              "h4",
-              null,
-              "design and coding \xA9 2018 ",
-              _react2.default.createElement(
-                "a",
-                { href: "https://www.echobanda.pl", className: "footer__main--link" },
-                "echobanda"
-              )
-            )
           )
         )
       );
@@ -12400,7 +12386,29 @@ var Home = function (_Component) {
   _createClass(Home, [{
     key: "render",
     value: function render() {
-      return _react2.default.createElement("div", { className: "home__content" });
+      return _react2.default.createElement(
+        "div",
+        { className: "home__content" },
+        _react2.default.createElement(
+          "span",
+          null,
+          "bikes are our passion"
+        ),
+        _react2.default.createElement(
+          "footer",
+          null,
+          _react2.default.createElement(
+            "h4",
+            null,
+            "design and coding \xA9 2018 ",
+            _react2.default.createElement(
+              "a",
+              { href: "https://www.echobanda.pl", className: "footer__main--link" },
+              "echobanda"
+            )
+          )
+        )
+      );
     }
   }]);
 
@@ -13558,7 +13566,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, ".home__content {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-end;\n  align-items: flex-end;\n}\n", ""]);
+exports.push([module.i, ".home__content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n}\n\n.main__content {\nflex: 1;\n\n}\n\nfooter {\nflex: 2;\n}\n", ""]);
 
 // exports
 

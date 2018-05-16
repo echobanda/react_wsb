@@ -1,6 +1,15 @@
 .home__content {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main__content {
+flex: 1;
+
+}
+
+footer {
+flex: 2;
 }

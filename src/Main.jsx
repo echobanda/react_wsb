@@ -31,9 +31,7 @@ class Main extends Component {
             <li><a href='http://instagram.com' className="header__main--link"><i className="fab fa-instagram"></i></a></li>
             <li><a href='http://twitter.com' className="header__main--link"><i className="fab fa-twitter-square"></i></a></li>
             <li><a href='http://facebook.com' className="header__main--link"><i className="fab fa-facebook"></i></a></li>
-
           </ul>
-
           <div className="main__content">
             <Route exact path="/" component={Home}/>
             <Route path="/workshop" component={Workshop}/>
@@ -43,9 +41,6 @@ class Main extends Component {
             <Route path="/contact" component={Contact}/>
           </div>
 
-          <footer>
-          <h4>design and coding &copy; 2018 <a href="https://www.echobanda.pl" className="footer__main--link">echobanda</a></h4>
-          </footer>
         </div>
       </HashRouter>
     );
