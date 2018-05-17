@@ -12289,7 +12289,7 @@ exports.default = Build;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+		value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -12309,40 +12309,76 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Contact = function (_Component) {
-  _inherits(Contact, _Component);
+		_inherits(Contact, _Component);
 
-  function Contact() {
-    _classCallCheck(this, Contact);
+		function Contact() {
+				_classCallCheck(this, Contact);
 
-    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
-  }
+				return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+		}
 
-  _createClass(Contact, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "div",
-        { className: "contact__content" },
-        _react2.default.createElement(
-          "div",
-          { className: "contact__content--text" },
-          _react2.default.createElement(
-            "h2",
-            null,
-            "formularz"
-          ),
-          _react2.default.createElement(
-            "p",
-            null,
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis iaculis eros, non volutpat nulla sollicitudin in. Suspendisse pulvinar dictum augue, vel faucibus massa laoreet sit amet. Etiam luctus laoreet nibh. Aliquam magna tortor, mattis sit amet augue pharetra, finibus sodales mi. Integer consequat semper vulputate. Sed et mi sit amet odio porta porta. Nulla facilisi. Praesent aliquet vel turpis eget commodo. Pellentesque lacus nisl, viverra a elit nec, fringilla placerat mi. Curabitur vitae diam at odio viverra cursus vel commodo nisl. Pellentesque venenatis eros vel risus sollicitudin, ut consectetur magna tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis iaculis eros, non volutpat nulla sollicitudin in. Suspendisse pulvinar dictum augue, vel faucibus massa laoreet sit amet. Etiam luctus laoreet nibh. Aliquam magna tortor, mattis sit amet augue pharetra, finibus sodales mi. Integer consequat semper vulputate. Sed et mi sit amet odio porta porta. Nulla facilisi. Praesent aliquet vel turpis eget commodo. Pellentesque lacus nisl, viverra a elit nec, fringilla placerat mi. Curabitur vitae diam at odio viverra cursus vel commodo nisl. Pellentesque venenatis eros vel risus sollicitudin, ut consectetur magna tempor."
-          )
-        ),
-        _react2.default.createElement("div", { className: "contact__content--photo" })
-      );
-    }
-  }]);
+		_createClass(Contact, [{
+				key: "render",
+				value: function render() {
+						return _react2.default.createElement(
+								"div",
+								{ className: "contact__content" },
+								_react2.default.createElement(
+										"div",
+										{ className: "contact__content--text" },
+										_react2.default.createElement(
+												"h2",
+												null,
+												"contact"
+										),
+										_react2.default.createElement(
+												"p",
+												null,
+												"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis iaculis eros, non volutpat nulla sollicitudin in. Suspendisse pulvinar dictum augue, vel faucibus massa laoreet sit amet. Etiam luctus laoreet nibh. Aliquam magna tortor, mattis sit amet augue pharetra, finibus sodales mi. Integer consequat semper vulputate. Sed et mi sit amet odio porta porta. Nulla facilisi. Praesent aliquet vel turpis eget commodo. Pellentesque lacus nisl, viverra a elit nec, fringilla placerat mi. Curabitur vitae diam at odio viverra cursus vel commodo nisl. Pellentesque venenatis eros vel risus sollicitudin, ut consectetur magna tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis iaculis eros, non volutpat nulla sollicitudin in. Suspendisse pulvinar dictum augue, vel faucibus massa laoreet sit amet. Etiam luctus laoreet nibh. Aliquam magna tortor, mattis sit amet augue pharetra, finibus sodales mi. Integer consequat semper vulputate. Sed et mi sit amet odio porta porta. Nulla facilisi. Praesent aliquet vel turpis eget commodo. Pellentesque lacus nisl, viverra a elit nec, fringilla placerat mi. Curabitur vitae diam at odio viverra cursus vel commodo nisl. Pellentesque venenatis eros vel risus sollicitudin, ut consectetur magna tempor."
+										)
+								),
+								_react2.default.createElement(
+										"div",
+										{ className: "contact__content--form" },
+										_react2.default.createElement(
+												"span",
+												{ className: "contact_content--logo" },
+												"Tell us about your project"
+										),
+										_react2.default.createElement(
+												"div",
+												{ className: "contact_content--form" },
+												_react2.default.createElement(
+														"form",
+														{ action: "index.html", target: "_blank", method: "post" },
+														_react2.default.createElement(
+																"label",
+																{ className: "contact_content--label", htmlFor: "" },
+																_react2.default.createElement("input", { type: "text", name: "firstName", value: "", placeholder: "NAME", required: true })
+														),
+														_react2.default.createElement(
+																"label",
+																{ className: "contact_content--label", htmlFor: "" },
+																_react2.default.createElement("input", { type: "email", name: "", value: "", placeholder: "E-MAIL", required: true })
+														),
+														_react2.default.createElement(
+																"label",
+																{ className: "contact_content--label", htmlFor: "" },
+																_react2.default.createElement("textarea", { name: "", value: "", placeholder: "MESSAGE", required: true })
+														),
+														_react2.default.createElement(
+																"button",
+																{ type: "submit" },
+																"LEAVE ME A MESSAGE"
+														)
+												)
+										)
+								)
+						);
+				}
+		}]);
 
-  return Contact;
+		return Contact;
 }(_react.Component);
 
 exports.default = Contact;
@@ -13755,7 +13791,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, ".contact__content {\n  width: 95%;\n  margin: 0 auto;\n  height: 500px;\n  position: relative;\n  background-color: rgba(0,0,0,0.5);\n  display: flex;\n  justify-content: center;\n  flex-direction: row;\n  align-items: center;\n  align-content: space-around;\n  padding: 20px;\n}\n\n.contact__content--text {\n  width: 50%;\n  height: 400px;\n  padding-right: 30px;\n}\n\n.contact__content--text p {\n  text-align: justify;\n}\n\n.contact__content--photo {\n  width: 40%;\n  height: auto;\n}\n\n.contact__content--photo img {\n  width: 80%;\n  height: 80%;\n}\n\nh2 {\n  margin-bottom: 10px;\n}\n", ""]);
+exports.push([module.i, ".contact__content {\n  width: 95%;\n  margin: 0 auto;\n  height: 500px;\n  position: relative;\n  background-color: rgba(0,0,0,0.5);\n  display: flex;\n  justify-content: center;\n  flex-direction: row;\n  align-items: center;\n  align-content: space-around;\n  padding: 20px;\n}\n\n.contact__content--text {\n  width: 50%;\n  height: 400px;\n  padding-right: 30px;\n}\n\n.contact__content--text p {\n  text-align: justify;\n}\n\n.contact__content--form {\n  width: 40%;\n  height: auto;\n}\n\n\nh2 {\n  margin-bottom: 10px;\n}\n\n\n    .contact_content--logo {\n      margin: 60px 0 20px 0;\n      font-size: 1.5rem;\n      color: white;\n    }\n\n    .contact_content--label input {\n      display: block;\n      width: 280px;\n      height: 50px;\n      margin-bottom: 10px;\n      font-style: italic;\n      padding-left: 20px;\n    }\n\n    textarea {\n      display: block;\n      width: 280px;\n      height: 250px;\n      font-style: italic;\n      padding: 20px 0 0 20px;\n    }\n\n    button {\n      margin-top: 20px;\n      width: 300px;\n      height: 50px;\n\n      border: none;\n      font-weight: bold;\n      font-size: 1.1em;\n      background-color: red;\n      color: white;\n      text-align: center;\n    }\n", ""]);
 
 // exports
 
@@ -13812,7 +13848,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "body {\n  /* font-family: 'Lato', sans-serif; */\n  /* font-family: 'Montserrat', sans-serif; */\n  font-family: 'Oswald', sans-serif;\n  background-color: #0a0a0a;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\nul.header li {\n  display: inline;\n  list-style-type: none;\n  margin-right: 20px;\n}\n\nul.header {\n  background-color: inherit;\n  padding: 0;\n  margin-left: 20px;\n}\n\nul.header li a {\n  color: #FFF;\n  text-decoration: none;\n  padding: 5px;\n  display: inline-block;\n}\n\n.main__content {\n  background-color: inherit;\n  color: #FFF;\n  padding: 20px;\n}\n\n.main__content h2 {\n  padding: 0;\n  margin: 0;\n}\n\n.main__content li {\n  margin-bottom: 10px;\n}\n\n.active {\n  background-color: red;\n}\n\nheader {\n  display: block;\n  background-color: black;\n  width: 100%;\n  height: 50px;\n  color: white;\n\n}\n\n#headerButtons {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.header__main--link:hover {\n  color: red;\n}\n\n.navButton {\n  float: right;\n}\n\nfooter {\n  display: block;\n  width: 100%;\n  height: 50px;\n  color: white;\n}\n", ""]);
+exports.push([module.i, "body {\n   /* font-family: 'Montserrat', sans-serif; */\n  font-family: 'Oswald', sans-serif;\n  background-color: #0a0a0a;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\nul.header li {\n  display: inline;\n  list-style-type: none;\n  margin-right: 20px;\n}\n\nul.header {\n  background-color: inherit;\n  padding: 0;\n  margin-left: 20px;\n}\n\nul.header li a {\n  color: #FFF;\n  text-decoration: none;\n  padding: 5px;\n  display: inline-block;\n}\n\n.main__content {\n  background-color: inherit;\n  color: #FFF;\n  padding: 20px;\n}\n\n.main__content h2 {\n  padding: 0;\n  margin: 0;\n}\n\n.main__content li {\n  margin-bottom: 10px;\n}\n\n.active {\n  background-color: red;\n}\n\nheader {\n  display: block;\n  background-color: black;\n  width: 100%;\n  height: 50px;\n  color: white;\n\n}\n\n#headerButtons {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.header__main--link:hover {\n  color: red;\n}\n\n.navButton {\n  float: right;\n}\n\nfooter {\n  display: block;\n  width: 100%;\n  height: 50px;\n  color: white;\n}\n", ""]);
 
 // exports
 
