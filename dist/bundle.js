@@ -12389,21 +12389,17 @@ var Home = function (_Component) {
       return _react2.default.createElement(
         "div",
         { className: "home__content" },
-        _react2.default.createElement(
-          "span",
-          null,
-          "bikes are our passion"
-        ),
+        _react2.default.createElement("span", { className: "home__content--span" }),
         _react2.default.createElement(
           "footer",
-          null,
+          { className: "home__footer" },
           _react2.default.createElement(
             "h4",
             null,
             "design and coding \xA9 2018 ",
             _react2.default.createElement(
               "a",
-              { href: "https://www.echobanda.pl", className: "footer__main--link" },
+              { href: "https://www.echobanda.pl", className: "home__footer--link" },
               "echobanda"
             )
           )
@@ -12470,7 +12466,214 @@ var Manifesto = function (_Component) {
           _react2.default.createElement(
             "p",
             null,
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis iaculis eros, non volutpat nulla sollicitudin in. Suspendisse pulvinar dictum augue, vel faucibus massa laoreet sit amet. Etiam luctus laoreet nibh. Aliquam magna tortor, mattis sit amet augue pharetra, finibus sodales mi. Integer consequat semper vulputate. Sed et mi sit amet odio porta porta. Nulla facilisi. Praesent aliquet vel turpis eget commodo. Pellentesque lacus nisl, viverra a elit nec, fringilla placerat mi. Curabitur vitae diam at odio viverra cursus vel commodo nisl. Pellentesque venenatis eros vel risus sollicitudin, ut consectetur magna tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis iaculis eros, non volutpat nulla sollicitudin in. Suspendisse pulvinar dictum augue, vel faucibus massa laoreet sit amet. Etiam luctus laoreet nibh. Aliquam magna tortor, mattis sit amet augue pharetra, finibus sodales mi. Integer consequat semper vulputate. Sed et mi sit amet odio porta porta. Nulla facilisi. Praesent aliquet vel turpis eget commodo. Pellentesque lacus nisl, viverra a elit nec, fringilla placerat mi. Curabitur vitae diam at odio viverra cursus vel commodo nisl. Pellentesque venenatis eros vel risus sollicitudin, ut consectetur magna tempor."
+            "QUALITY, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "URBAN, HERITAGE"
+            ),
+            ", PASSION, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "BEAUTY, SIMPLE"
+            ),
+            ", CUSTOM, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "CRAFT, ENDURO"
+            ),
+            ", PRIDE, TRUST, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "MODERN"
+            ),
+            ", CARE, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "DOWNHILL"
+            ),
+            ", MTB, RETRO, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "ROAD, GRAVEL,"
+            ),
+            " CITY CRUISER, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "1X13 ???????"
+            ),
+            ", ADVENTURE, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "SINGLE SPEED"
+            ),
+            ", WORKSHOP, MECHANIC, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "FREEDOM"
+            ),
+            ", QUALITY, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "URBAN, HERITAGE"
+            ),
+            ", PASSION, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "BEAUTY, SIMPLE"
+            ),
+            ", CUSTOM, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "CRAFT, ENDURO"
+            ),
+            ", PRIDE, TRUST, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "MODERN"
+            ),
+            ", CARE, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "DOWNHILL"
+            ),
+            ", MTB, RETRO, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "ROAD, GRAVEL,"
+            ),
+            " CITY CRUISER, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "1X13 ???????"
+            ),
+            ", ADVENTURE, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "SINGLE SPEED"
+            ),
+            ", WORKSHOP, MECHANIC, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "FREEDOM"
+            ),
+            ", QUALITY, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "URBAN, HERITAGE"
+            ),
+            ", PASSION, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "BEAUTY, SIMPLE"
+            ),
+            ", CUSTOM, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "CRAFT, ENDURO"
+            ),
+            ", PRIDE, TRUST, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "MODERN"
+            ),
+            ", CARE, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "DOWNHILL"
+            ),
+            ", MTB, RETRO, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "ROAD, GRAVEL,"
+            ),
+            " CITY CRUISER, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "1X13 ???????"
+            ),
+            ", ADVENTURE, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "SINGLE SPEED"
+            ),
+            ", WORKSHOP, MECHANIC, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "FREEDOM"
+            ),
+            ", QUALITY, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "URBAN, HERITAGE"
+            ),
+            ", PASSION, ",
+            _react2.default.createElement(
+              "span",
+              null,
+              "BEAUTY, LOVE"
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "manifesto__content--imgs" },
+            _react2.default.createElement(
+              "div",
+              { className: "content__imgs" },
+              _react2.default.createElement("img", { src: "./img/bicycle.png" }),
+              _react2.default.createElement(
+                "span",
+                null,
+                "BEAUTIFUL"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "content__imgs" },
+              _react2.default.createElement("img", { src: "./img/service.png" }),
+              _react2.default.createElement(
+                "span",
+                null,
+                "WORKSHOP"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "content__imgs" },
+              _react2.default.createElement("img", { src: "./img/love.png" }),
+              _react2.default.createElement(
+                "span",
+                null,
+                "PASSION"
+              )
+            )
           )
         ),
         _react2.default.createElement(
@@ -13566,7 +13769,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, ".home__content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n}\n\n.main__content {\nflex: 1;\n\n}\n\nfooter {\nflex: 2;\n}\n", ""]);
+exports.push([module.i, ".home__content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n  width: 100%;\n  margin: 0 auto;\n  height: 500px;\n  position: relative;\n}\n\n.home__content--span {\n  width: 1200px;\n  height: 600px;\n  font-size: 5em;\n  font-family: 'Kavivanar', cursive;\n\n}\n\n.home__footer {\n  width: 100%;\n  height: 20px;\n}\n\n.home__footer--link {\n  font-family: 'Special Elite', cursive;\n  text-decoration: none;\n  color: red;\n}\n", ""]);
 
 // exports
 
@@ -13595,7 +13798,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, ".manifesto__content {\n  width: 95%;\n  margin: 0 auto;\n  height: 500px;\n  position: relative;\n  background-color: rgba(0,0,0,0.5);\n  display: flex;\n  justify-content: center;\n  flex-direction: row;\n  align-items: center;\n  align-content: space-around;\n  padding: 20px;\n}\n\n.manifesto__content--text {\n  width: 50%;\n  height: 400px;\n  padding-right: 30px;\n}\n\n.manifesto__content--text p {\n  text-align: justify;\n}\n\n.manifesto__content--photo {\n  width: 40%;\n  height: auto;\n}\n\n.manifesto__content--photo img {\n  width: 100%;\n  height: 100%;\n}\n\nh2 {\n  margin-bottom: 10px;\n}\n", ""]);
+exports.push([module.i, ".manifesto__content {\n  width: 95%;\n  margin: 0 auto;\n  height: 500px;\n  position: relative;\n  background-color: rgba(0,0,0,0.5);\n  display: flex;\n  justify-content: center;\n  flex-direction: row;\n  align-items: center;\n  align-content: space-around;\n  padding: 20px;\n}\n\n.manifesto__content--text {\n  width: 50%;\n  height: 400px;\n  padding-right: 30px;\n\n}\n\n.manifesto__content--text p {\n  text-align: justify;\n}\n\n.manifesto__content--photo {\n  width: 40%;\n  height: auto;\n}\n\n.manifesto__content--photo img {\n  width: 100%;\n  height: 100%;\n}\n\nh2 {\n  margin-bottom: 10px;\n}\n\nspan {\n  color: grey;\n}\n\n.manifesto__content--imgs {\n  margin-top: 35px;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.manifesto__content--imgs span {\n  color: white;\n}\n\n.content__imgs {\n  color: white;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
 
 // exports
 
@@ -13609,7 +13812,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "body {\n  /* font-family: 'Lato', sans-serif; */\n  /* font-family: 'Montserrat', sans-serif; */\n  font-family: 'Oswald', sans-serif;\n  background-color: #0a0a0a;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\nul.header li {\n  display: inline;\n  list-style-type: none;\n  margin-right: 20px;\n}\n\nul.header {\n  background-color: inherit;\n  padding: 0;\n  margin-left: 20px;\n}\n\nul.header li a {\n  color: #FFF;\n  text-decoration: none;\n  padding: 5px;\n  display: inline-block;\n}\n\n.main__content {\n  background-color: inherit;\n  color: #FFF;\n  padding: 20px;\n}\n\n.main__content h2 {\n  padding: 0;\n  margin: 0;\n}\n\n.main__content li {\n  margin-bottom: 10px;\n}\n\n.active {\n  background-color: red;\n}\n\nheader {\n  display: block;\n  background-color: black;\n  width: 100%;\n  height: 50px;\n  color: white;\n\n}\n\n#headerButtons {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.header__main--link:hover {\n  color: red;\n}\n\n.navButton {\n  float: right;\n}\n\nfooter {\n  display: block;\n  width: 100%;\n  height: 50px;\n  color: white;\n  margin-left: 20px;\n\n}\n\n.footer__main--link {\n  font-family: 'Special Elite', cursive;\n  text-decoration: none;\n  color: red;\n}\n", ""]);
+exports.push([module.i, "body {\n  /* font-family: 'Lato', sans-serif; */\n  /* font-family: 'Montserrat', sans-serif; */\n  font-family: 'Oswald', sans-serif;\n  background-color: #0a0a0a;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\nul.header li {\n  display: inline;\n  list-style-type: none;\n  margin-right: 20px;\n}\n\nul.header {\n  background-color: inherit;\n  padding: 0;\n  margin-left: 20px;\n}\n\nul.header li a {\n  color: #FFF;\n  text-decoration: none;\n  padding: 5px;\n  display: inline-block;\n}\n\n.main__content {\n  background-color: inherit;\n  color: #FFF;\n  padding: 20px;\n}\n\n.main__content h2 {\n  padding: 0;\n  margin: 0;\n}\n\n.main__content li {\n  margin-bottom: 10px;\n}\n\n.active {\n  background-color: red;\n}\n\nheader {\n  display: block;\n  background-color: black;\n  width: 100%;\n  height: 50px;\n  color: white;\n\n}\n\n#headerButtons {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.header__main--link:hover {\n  color: red;\n}\n\n.navButton {\n  float: right;\n}\n\nfooter {\n  display: block;\n  width: 100%;\n  height: 50px;\n  color: white;\n}\n", ""]);
 
 // exports
 

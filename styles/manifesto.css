@@ -16,6 +16,7 @@
   width: 50%;
   height: 400px;
   padding-right: 30px;
+
 }
 
 .manifesto__content--text p {
@@ -34,4 +35,28 @@
 
 h2 {
   margin-bottom: 10px;
+}
+
+span {
+  color: grey;
+}
+
+.manifesto__content--imgs {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.manifesto__content--imgs span {
+  color: white;
+}
+
+.content__imgs {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

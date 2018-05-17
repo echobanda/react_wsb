@@ -3,13 +3,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
 }
 
-.main__content {
-flex: 1;
+.home__content--span {
+  width: 1200px;
+  height: 600px;
+  font-size: 5em;
+  font-family: 'Kavivanar', cursive;
 
 }
 
-footer {
-flex: 2;
+.home__footer {
+  width: 100%;
+  height: 20px;
+}
+
+.home__footer--link {
+  font-family: 'Special Elite', cursive;
+  text-decoration: none;
+  color: red;
 }
