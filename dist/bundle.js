@@ -12435,7 +12435,16 @@ var Home = function (_Component) {
       return _react2.default.createElement(
         "div",
         { className: "home__content" },
-        _react2.default.createElement("span", { className: "home__content--span" }),
+        _react2.default.createElement(
+          "span",
+          { className: "home__content--span" },
+          "Bikes are our ",
+          _react2.default.createElement(
+            "span",
+            null,
+            "passion"
+          )
+        ),
         _react2.default.createElement(
           "footer",
           { className: "home__footer" },
@@ -13815,7 +13824,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, ".home__content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n  width: 100%;\n  margin: 0 auto;\n  height: 500px;\n  position: relative;\n}\n\n.home__content--span {\n  width: 1200px;\n  height: 600px;\n  font-size: 5em;\n  font-family: 'Kavivanar', cursive;\n\n}\n\n.home__footer {\n  width: 100%;\n  height: 20px;\n}\n\n.home__footer--link {\n  font-family: 'Special Elite', cursive;\n  text-decoration: none;\n  color: red;\n}\n", ""]);
+exports.push([module.i, ".home__content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n  width: 100%;\n  margin: 0 auto;\n  height: 500px;\n  position: relative;\n}\n\n.home__content--span {\n  width: 1200px;\n  height: 600px;\n  font-size: 2.5em;\n  font-family: 'Kavivanar', cursive;\n  color: white;\n}\n\n.home__content--span span{\n/* font-family: 'Kavivanar', cursive; */\ncolor: red;\n}\n\n.home__footer {\n  width: 100%;\n  height: 20px;\n}\n\n.home__footer--link {\n  font-family: 'Special Elite', cursive;\n  text-decoration: none;\n  color: red;\n}\n", ""]);
 
 // exports
 

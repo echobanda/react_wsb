@@ -12,9 +12,14 @@
 .home__content--span {
   width: 1200px;
   height: 600px;
-  font-size: 5em;
+  font-size: 2.5em;
   font-family: 'Kavivanar', cursive;
+  color: white;
+}
 
+.home__content--span span{
+/* font-family: 'Kavivanar', cursive; */
+color: red;
 }
 
 .home__footer {
