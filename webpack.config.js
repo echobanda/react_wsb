@@ -27,7 +27,7 @@ module.exports = {
         loader: 'file-loader'
       },
       {
-        test : /\.jsx?/,
+        test : /\.jsx?$/,
         include : SRC_DIR,
         loader : 'babel-loader',
         query: {

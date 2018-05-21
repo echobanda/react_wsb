@@ -17,13 +17,13 @@ class Contact extends Component {
 					<div className="contact_content--form">
 						<form action="index.html" target="_blank" method="post">
 							<label className="contact_content--label" htmlFor="">
-		            <input type="text" name="firstName" value="" placeholder="NAME" required />
+		            <input type="text" name="firstName" defaultValue="" placeholder="NAME" required />
 		          </label>
 							<label className="contact_content--label" htmlFor="">
-		            <input type="email" name="" value="" placeholder="E-MAIL" required />
+		            <input type="email" name="" defaultValue="" placeholder="E-MAIL" required />
 		          </label>
 							<label className="contact_content--label" htmlFor="">
-		            <textarea name="" value="" placeholder="MESSAGE" required></textarea>
+		            <textarea name="" defaultValue="" placeholder="MESSAGE" required></textarea>
 		          </label>
 							<button type="submit">LEAVE ME A MESSAGE</button>
 						</form>

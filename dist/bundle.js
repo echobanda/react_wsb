@@ -12069,6 +12069,15 @@ var Main = function (_Component) {
               "li",
               null,
               _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { to: "/map" },
+                "MAP"
+              )
+            ),
+            _react2.default.createElement(
+              "li",
+              null,
+              _react2.default.createElement(
                 "a",
                 { href: "mailto:mechanic@workshop.com", className: "header__main--link" },
                 _react2.default.createElement("i", { className: "fas fa-envelope" })
@@ -12119,7 +12128,8 @@ var Main = function (_Component) {
             _react2.default.createElement(_reactRouterDom.Route, { path: "/manifesto", component: _Manifesto2.default }),
             _react2.default.createElement(_reactRouterDom.Route, { path: "/build", component: _Build2.default }),
             _react2.default.createElement(_reactRouterDom.Route, { path: "/about", component: _About2.default }),
-            _react2.default.createElement(_reactRouterDom.Route, { path: "/contact", component: _Contact2.default })
+            _react2.default.createElement(_reactRouterDom.Route, { path: "/contact", component: _Contact2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { path: "/map", component: Map })
           )
         )
       );
@@ -12354,17 +12364,17 @@ var Contact = function (_Component) {
 														_react2.default.createElement(
 																"label",
 																{ className: "contact_content--label", htmlFor: "" },
-																_react2.default.createElement("input", { type: "text", name: "firstName", value: "", placeholder: "NAME", required: true })
+																_react2.default.createElement("input", { type: "text", name: "firstName", defaultValue: "", placeholder: "NAME", required: true })
 														),
 														_react2.default.createElement(
 																"label",
 																{ className: "contact_content--label", htmlFor: "" },
-																_react2.default.createElement("input", { type: "email", name: "", value: "", placeholder: "E-MAIL", required: true })
+																_react2.default.createElement("input", { type: "email", name: "", defaultValue: "", placeholder: "E-MAIL", required: true })
 														),
 														_react2.default.createElement(
 																"label",
 																{ className: "contact_content--label", htmlFor: "" },
-																_react2.default.createElement("textarea", { name: "", value: "", placeholder: "MESSAGE", required: true })
+																_react2.default.createElement("textarea", { name: "", defaultValue: "", placeholder: "MESSAGE", required: true })
 														),
 														_react2.default.createElement(
 																"button",

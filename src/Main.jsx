@@ -27,6 +27,7 @@ class Main extends Component {
             <li><NavLink to="/build">BUILD</NavLink></li>
             <li><NavLink to="/about">ABOUT</NavLink></li>
             <li><NavLink to="/contact">CONTACT</NavLink></li>
+            <li><NavLink to="/map">MAP</NavLink></li>
 
             <li><a href="mailto:mechanic@workshop.com" className="header__main--link"><i className="fas fa-envelope"></i></a></li>
             <li><a href='http://tumblr.com' className="header__main--link"><i className="fab fa-tumblr-square"></i></a></li>
@@ -41,6 +42,7 @@ class Main extends Component {
             <Route path="/build" component={Build}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/map" component={Map}/>
 
           </div>
 
